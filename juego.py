@@ -13,8 +13,9 @@ if opcion1 == "LINTERNA":
         print("Encuentras entre los arboles un lindo conejo. ¿Lo tomas o lo dejas ir?")
         opcion1_1_2 = input("TOMAR o DEJAR: ").upper()
         if opcion1_1_2 == "DEJAR":
-            print("Sigues caminando y mas adelante te encuentras a una persona. \n¿HABLAR CON ELLA? \n¿SALUDARLA? \n¿IGNORARLA? \nINSULTARLA ")
-            
+            print("Sigues caminando y mas adelante te encuentras a una persona. \nA.¿HABLAR CON ELLA? \nB.¿SALUDARLA? \nC.¿IGNORARLA? \nD.INSULTARLA ").upper()
+            repuesta_A = input("")
 
         
+
 
